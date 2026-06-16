@@ -297,14 +297,14 @@ nav.scrolled {
   box-shadow: 0 5px 15px rgba(var(--accent-cyan-rgb), 0.2);
 }
 
-.whatsapp-link .contact-icon {
-  color: #25D366; /* WhatsApp Green */
+.linkedin-link .contact-icon {
+  color: #0A66C2; /* LinkedIn Blue */
 }
 
-.whatsapp-link:hover {
-  border-color: #25D366;
+.linkedin-link:hover {
+  border-color: #0A66C2;
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
+  box-shadow: 0 5px 15px rgba(10, 102, 194, 0.2);
 }
 
 @media (max-width: 768px) {
@@ -362,6 +362,17 @@ nav.scrolled {
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-cyan) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: clamp(14px, 6.5vw, 24px) !important;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero-subtitle {

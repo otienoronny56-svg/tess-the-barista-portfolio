@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@700;800&display=swap');
+
 :root {
   /* Dark Mode (Default) */
   --bg-primary: #050505;
@@ -28,7 +30,6 @@
   --glass-bg: rgba(252, 251, 249, 0.85);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@700;800&display=swap');
 
 * {
   margin: 0;
@@ -41,14 +42,14 @@ body {
   background-image: radial-gradient(var(--border-glass) 1px, transparent 1px);
   background-size: 30px 30px;
   color: var(--text-primary);
-  font-family: var(--font-body);
+  font-family: 'Inter', sans-serif !important;
   line-height: 1.6;
   overflow-x: hidden;
   transition: var(--transition-smooth);
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-heading);
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif !important;
   text-transform: uppercase;
   letter-spacing: -0.02em;
 }
@@ -757,4 +758,11 @@ section {
 .resume-btn:hover svg {
   transform: translateY(3px);
   color: var(--accent-emerald);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-heading: 'Syne', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
 }

@@ -326,6 +326,15 @@ nav.scrolled {
   max-width: 100%;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    justify-content: flex-start;
+  }
+}
+
 .hero-bg-visual {
   position: absolute;
   top: 0;

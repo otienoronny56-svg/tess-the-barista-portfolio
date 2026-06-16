@@ -349,7 +349,7 @@ nav.scrolled {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: clamp(1.5rem, 7vw, 4.5rem);
   font-weight: 800;
   line-height: 1;
   margin-bottom: 1rem;

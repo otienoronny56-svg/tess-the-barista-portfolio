@@ -14,7 +14,13 @@ import {
   PenTool,
   Cpu,
   Layers,
-  Globe
+  Globe,
+  Award,
+  BookOpen,
+  Coffee,
+  Leaf,
+  Users,
+  Mic
 } from 'lucide'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -65,7 +71,7 @@ const updateThemeIcon = (theme: string) => {
 const renderContent = () => {
   // Use createIcons for existing tech icons
   createIcons({
-    icons: { ExternalLink, Code2, Database, Layout, PenTool, Cpu, Menu, X, Layers, Globe }
+    icons: { ExternalLink, Code2, Database, Layout, PenTool, Cpu, Menu, X, Layers, Globe, Award, BookOpen, Coffee, Leaf, Users, Mic }
   });
 }
 
